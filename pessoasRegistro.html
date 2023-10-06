@@ -11,7 +11,7 @@
         <h1>PLAN.C</h1>
         <nav>
             <ul>
-                <li><a href="./index.html">Início</a></li>
+                <li><a href="./index.html">Inicio</a></li>
                 <li><a href="./pessoasRegistro.html">Registrar pessoas</a></li>
                 <li><a href="./casamentoRegistro.html">Agendar casamentos</a></li>
                 <li><a href="./agenda.html">Agenda</a></li>
@@ -20,13 +20,20 @@
     </header>
     <div class="pop-up1">
         <div class="modalPessoas">
-            <form>
-                <label for="name">Nome</label>
-                <input type="text" id="nomePessoa" name="nomePessoa">
-                <label for="telefone">Telefone</label>
-                <input type="text" id="telefonePessoa" name="telefonePessoa">
-                <label for="rg">RG</label>
-                <input type="text" id="rg" name="rg">
+            <form class="form">
+                <div class="TextInputDiv">
+                <label for="name">Nome: </label>
+                <input type="text" id="nomePessoa" name="nomePessoa">   
+                </div>
+                <div>
+                <label for="telefone">Telefone: </label>
+                <input type="text" id="telefonePessoa" name="telefonePessoa">   
+                </div>
+                <div>
+                <label for="rg">RG: </label>
+                <input type="text" id="rg" name="rg">   
+                </div>
+
                 <button id="btnP">Enviar</button>
             </form>
         </div>

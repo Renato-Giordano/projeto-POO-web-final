@@ -1,15 +1,16 @@
 body {
     margin: 0;
     padding: 0;
-    width: 1440px;
-    height: 1024px;
+    width: 100%;
+    height: 100%;
+    background-color: #888888;
 }
 
 header {
-    background-color:cadetblue;
+    background-color:rgb(255, 255, 255);
     width: 100%;
     height: max-content;
-    display: flex;
+    display: flex;  
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
@@ -20,7 +21,7 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 30px;
+    gap: 200px;
 }
 
 a {
@@ -33,14 +34,17 @@ li {
 }
 
 .modalPessoas {
-    background-color:cadetblue;
-    width: 200px;
+    background-color:rgb(255, 255, 255);
+    width: 1270px;
+    height: 758px;
     display: flex;
     border: 1px solid #888;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 50px;
+ 
+    margin-top: 100px;
+    margin-left: 360px;
 }
 
 .modalCasamentos {
@@ -67,4 +71,10 @@ h1{
     font-style: normal;
     font-weight: 800;
     line-height: normal;
+}
+
+.form{
+    width: 250px;
+    height: 100px;
+    flex-direction: column;
 }
